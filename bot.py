@@ -605,9 +605,10 @@ async def main():
 
 
 if __name__ == "__main__":
+    loop = asyncio.new_event_loop()
+    asyncio.set_event_loop(loop)
     try:
-        import uvloop
-        uvloop.install()
-    except ImportError:
+        loop.run_until_complete(main())
+    except KeyboardInterrupt:
         pass
-    asyncio.run(main())
+      
