@@ -1,0 +1,25 @@
+# Telegram API Credentials (from my.telegram.org)
+API_ID=30341151
+API_HASH=477adb99dde87fc4090d82289e05c5a0
+
+# Bot Token (from @BotFather)
+BOT_TOKEN=8956255875:AAE8XMGi_3S7umTR3AqDEnzEuETlnA-A1Ug
+
+# MongoDB Connection String
+MONGO_URI=mongodb+srv://workforashik60_db_user:qJGohPLZLMR3wnR1@cluster0.h0mrmoa.mongodb.net/?appName=Cluster0
+
+# Admin Telegram User ID (only this ID can upload/manage)
+ADMIN_ID=8893374958
+
+# Force Subscribe Channel (bot must be admin in this channel)
+FSUB_CHANNEL_ID=-1003771315911
+
+# Optional: Database name
+DB_NAME=file_storage_bot
+
+# Optional: Bot username without @ (used for deep links). Set after first run or manually.
+BOT_USERNAME=
+
+# Optional: Storage channel to keep permanent copies of files (recommended)
+# If not set, the bot uses the Saved Messages / same chat for file_id references
+LOG_CHANNEL_ID=
